@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('./assets/mount_fuji.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.header-title {
+    color: white;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0));
+}
+
+
+.profile-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.name-container {
+    font-size: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    margin: 10px auto;
+}
+
+.left-container {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 7.5px;
+}
+
+.right-container {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 7.5px;
+}
+
+.navbar {
+    margin: 15px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px;
+}
+
+.navbar-item {
+    display: block;
+    padding: 15px;
+    background-color:#ccc;
+}
+
+.profile-img {
+    border: 3px solid black;
+    margin: 10px auto;
+
+}
+
+.media-links-container .media-links {
+    margin: 10px auto;
+}
+
+.media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.media-header {
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.about-me-content {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.bio-content {
+    border: 1px solid black;
+    width: 50%;
+}
