@@ -27,6 +27,8 @@ li {
 
 li a {
     text-decoration: none;
+    font-family: 'Notable', sans-serif;
+    color: white;
 }
 
 body {
@@ -41,86 +43,106 @@ body {
     align-items: center;
 }
 
-.main-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.name-container {
-    font-size: 4rem;
-    font-family: 'Kaushan Script', cursive;
-    margin: 10px auto;
-}
-
-.left-container {
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    padding: 7.5px;
-}
-
-.right-container {
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 7.5px;
-}
-
 .navbar {
-    margin: 15px;
+    margin: 10px auto;
 }
 
 .navbar-items {
+    min-height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .navbar-item {
-    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    width: 10rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+   
+}
+
+.main-container {
+    border: 3px dashed red;
+    margin: 15px;
     padding: 15px;
-    background-color:#ccc;
-}
-
-.profile-img {
-    border: 3px solid black;
-    margin: 10px auto;
-
-}
-
-.media-links-container .media-links {
-    margin: 10px auto;
-}
-
-.media-links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.media-header {
-    border: 1px solid black;
-    text-align: center;
-    margin: 15px auto;
-}
-
-.about-me-content {
-    border: 1px solid black;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px;
-    width: 100%;
-
-}
-
-.bio-content {
-    border: 1px solid black;
+.left-container {
+    border: 3px dotted blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;;
     width: 50%;
+    min-height: 50px;
+    background-color: white;
 }
+
+.right-container {
+    border: 3px dotted yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 50%;
+    min-height:  50px;
+    background-color: rgba(0,0,0, .2);
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+}
+
+.media-container {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.media-links {
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.about-me-box {
+    padding: 10px;
+}
+
+.about-me-header {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 3px solid black;
+    margin: 10px auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.footer-container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
