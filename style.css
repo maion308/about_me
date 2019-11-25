@@ -1,148 +1,308 @@
-* {
-    margin: 0;
-    padding: 0;
+@media (min-width:300px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .header-background {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url('./assets/mount_fuji.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+    }
+    
+    .header-title {
+        color: white;
+    }
+    
+    
+    
+    li {
+        list-style-type: none;
+    }
+    
+    li a {
+        text-decoration: none;
+        font-family: 'Notable', sans-serif;
+        color: white;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0));
+    }
+    
+    
+    .profile-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar {
+        margin: 10px auto;
+    }
+    
+    .navbar-items {
+        min-height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navbar-item {
+        margin: 0 auto;
+        padding: 3px;
+        width: 10rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+       
+    }
+    
+    .main-container {
+        border: 3px dashed red;
+        margin: 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .left-container {
+        border: 3px dotted blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin: 15px;;
+        width: 50%;
+        min-height: 50px;
+        background-color: white;
+    }
+    
+    .right-container {
+        border: 3px dotted yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin: 15px;
+        width: 50%;
+        min-height:  50px;
+        background-color: rgba(0,0,0, .2);
+        font-family: 'Bungee Inline', cursive;
+        color: white;
+    }
+    
+    .media-container {
+        border: 3px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .media-links {
+        margin: 10px;
+        background-color: white;
+        color: black;
+    }
+    
+    .about-me-box {
+        padding: 10px;
+    }
+    
+    .about-me-header {
+        margin: 5px auto;
+        text-align: center;
+    }
+    
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        border: 3px solid black;
+        margin: 10px auto;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .footer-container {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
 }
 
 
-.header-background {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    background-image: url('./assets/mount_fuji.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 50vh;
+@media (min-width: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .header-background {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url('./assets/mount_fuji.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+    }
+    
+    .header-title {
+        color: white;
+    }
+    
+    
+    
+    li {
+        list-style-type: none;
+    }
+    
+    li a {
+        text-decoration: none;
+        font-family: 'Notable', sans-serif;
+        color: white;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0));
+    }
+    
+    
+    .profile-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar {
+        margin: 10px auto;
+    }
+    
+    .navbar-items {
+        min-height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navbar-item {
+        margin: 0 auto;
+        padding: 3px;
+        width: 10rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+       
+    }
+    
+    .main-container {
+        border: 3px dashed red;
+        margin: 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .left-container {
+        border: 3px dotted blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;;
+        width: 50%;
+        min-height: 50px;
+        background-color: white;
+    }
+    
+    .right-container {
+        border: 3px dotted yellow;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        width: 50%;
+        min-height:  50px;
+        background-color: rgba(0,0,0, .2);
+        font-family: 'Bungee Inline', cursive;
+        color: white;
+    }
+    
+    .media-container {
+        border: 3px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .media-links {
+        margin: 10px;
+        background-color: white;
+        color: black;
+    }
+    
+    .about-me-box {
+        padding: 10px;
+    }
+    
+    .about-me-header {
+        margin: 5px auto;
+        text-align: center;
+    }
+    
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        border: 3px solid black;
+        margin: 10px auto;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .footer-container {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
 }
-
-.header-title {
-    color: white;
-}
-
-
-
-li {
-    list-style-type: none;
-}
-
-li a {
-    text-decoration: none;
-    font-family: 'Notable', sans-serif;
-    color: white;
-}
-
-body {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(0, 0, 0));
-}
-
-
-.profile-image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar {
-    margin: 10px auto;
-}
-
-.navbar-items {
-    min-height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.navbar-item {
-    margin: 0 auto;
-    padding: 3px;
-    width: 10rem;
-    text-align: center;
-    font-weight: 600;
-    font-size: large;
-   
-}
-
-.main-container {
-    border: 3px dashed red;
-    margin: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.left-container {
-    border: 3px dotted blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;;
-    width: 50%;
-    min-height: 50px;
-    background-color: white;
-}
-
-.right-container {
-    border: 3px dotted yellow;
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    width: 50%;
-    min-height:  50px;
-    background-color: rgba(0,0,0, .2);
-    font-family: 'Bungee Inline', cursive;
-    color: white;
-}
-
-.media-container {
-    border: 3px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.media-links {
-    margin: 10px;
-    background-color: white;
-    color: black;
-}
-
-.about-me-box {
-    padding: 10px;
-}
-
-.about-me-header {
-    margin: 5px auto;
-    text-align: center;
-}
-
-.image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    border: 3px solid black;
-    margin: 10px auto;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.footer-container {
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
 
