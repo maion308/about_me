@@ -17,17 +17,18 @@
     </header>
     <nav class="navbar">
         <ul class="navbar-items">
-            <li class="navbar-item project-show"><a href="./projects.html">Projects</a></li>
-            <li class="navbar-item"><a href="#contact">Contact</a></li>
+            <li id="about-link" class="navbar-item">About</li>
+            <li id="project-link" class="navbar-item">Projects</li>
+            <li id="id-link" class="navbar-item">Contact</li>
         </ul>
     </nav>
     
-    <div class="image-container">
+    <div id="img-content" class="image-container">
         <img class="module" src="./assets/IMG_20191110_215253_107.jpg" alt="">
         <h1 class="rainbow-text">Michael Ion</h1>
         <hr />
     </div>
-    <main class="main-container">
+    <main id="main-content" class="main-container">
         <div class="left-container">
             <h3 class="left-header">Find Me On</h3>
             <hr />
@@ -39,7 +40,8 @@
         </div>
         <div class="right-container">
             <div class="about-me-box module">
-                <h3 class="about-me-header">About Me</h3>
+                <h3 id="about-me" class="about-me-header">About Me</h3>
+                <div id="about-container" class="hide">
                 <p>I am a responsive web applications developer based in New York.
                    I specialize in restful web api applications, through
                    language and technologies including but not limited to:
@@ -61,6 +63,7 @@
                       such as websites, mobile applications.
                    </p>
                 </p>
+                </div>
             </div>
         </div>
     </main>
@@ -68,5 +71,6 @@
         <small>Created by Michael Ion, All Rights Reserved &copy;</small>
     </footer>
 
+    <script src="./app.js"></script>
 </body>
 </html>
