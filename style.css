@@ -29,9 +29,7 @@
         margin: 10px;
     }
     
-    hr {
-        width: 50%;
-    }
+ 
     
     li {
         list-style-type: none;
@@ -140,7 +138,7 @@
         align-items: center;
     }
     
-    img {
+    #profile-img {
         border: 5px solid black;
         margin: 10px auto;
         border-radius: 50%;
@@ -157,7 +155,7 @@
         align-items: center;
     }
 
-    .module {
+    #img-content {
    
         color: white;
         border-width: 3px;
@@ -170,23 +168,78 @@
           ) 1 100%;
       }
 
+      .app-images {
+        border: 7px solid black;
+        margin: 10px auto;
+        
+        width: 200px;
+        height: 200px;
+    }
+
           .rainbow-text {
         background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
         color: transparent;
       }
     
+
+    .app-image-container {
+        display: flex;
+        flex-direction: row;
+    }
+
     .project-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .app-image-container {
-        display: flex;
-        flex-direction: row;
-    }
     
+#findme-hr {
+    width: 25%;
+}
+
+#name-hr {
+    width: 35%;
+}
+
+#projects-hr {
+    width: 35%;
+}
+
+.game-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin: 10px;
+}
+
+.big-font {
+    font-size: 36px;
+}
+
+.game-images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-icon {
+    color: royalblue;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
     
 }
 
@@ -317,7 +370,7 @@
         align-items: center;
     }
     
-    img {
+    .app-images {
         border: 7px solid black;
         margin: 10px auto;
         border-radius: 50%;

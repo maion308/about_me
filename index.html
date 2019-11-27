@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Michae Ion</title>
+    <title>Michael Ion</title>
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton|Notable&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -24,14 +24,14 @@
     </nav>
     
     <div id="img-content" class="image-container">
-        <img class="module" src="./assets/IMG_20191110_215253_107.jpg" alt="">
+        <img id="profile-img" class="module" src="./assets/IMG_20191110_215253_107.jpg" alt="">
         <h1 class="rainbow-text">Michael Ion</h1>
-        <hr />
+        <hr id="name-hr" />
     </div>
     <main id="main-content" class="main-container">
         <div class="left-container">
             <h3 class="left-header">Find Me On</h3>
-            <hr />
+            <hr id="findme-hr"/>
             <div class="media-container">
                 <a class="media-links" href="https://www.linkedin.com/in/michael-ion-153926121/" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a>
                 <a class="media-links" href="https://github.com/maion308" target="_blank"><i class="fab fa-github-square fa-5x"></i></a>
@@ -68,20 +68,67 @@
         </div>
     </main>
 
-    <section id="project-content" class="project-container hide">
-        <h1 class="projects-header">Recent Projects</h1>
+    <div id="project-content" class="project-container hide">
+        <h1 id="project-header" class="projects-header hide">Recent Projects</h1>
         <br>
-        <hr />
-            <h3>Trivial Trove</h3>
-            <p>Trivia Trove is a trivia game application build solely
-               on Vanilla Javascript, html, css.</p>
-       
-    </section>
+        <hr id="projects-hr" class="hide" />
+        <br />
+        <h3 class="games-header hide">Trivial Trove</h3>
+        <p class="game-description hide">Trivia Trove is a trivia game application built
+            on Vanilla <span class="rainbow-text">JavaScript HTML CSS</span>.
+            <span>Click </span><span><a class="rainbow-text big-font" href="https://pages.git.generalassemb.ly/michaelion/trivial-trove/">Trivial Trove</a></span><span> to play! </span>
+        </p>
+        <div class="game-img-box hide">
+            <a href="./assets/Screen Shot 2019-11-25 at 12.14.42 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.14.42 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.15.29 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.15.29 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.15.03 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.15.03 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.15.12 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.15.12 PM.png" alt=""></a>
+        </div>
 
+        <h3 id="relate" class="games-header hide">rElate</h3>
+        <p id="relate-description" class="game-description hide">A ruby on rails fullstack blog application that 
+            implements restful API CRUD and user AUTH with devise.
+            <span>Click </span><span><a class="rainbow-text big-font" href="https://hidden-lowlands-86309.herokuapp.com/users/sign_in">rElate</a></span><span> to try! </span>
+        </p>
+        <div id="relate-images" class="game-img-box hide">
+            <a href="./assets/Screen Shot 2019-11-25 at 12.17.04 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.17.04 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.17.14 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.17.14 PM.png" alt=""></a>
+        </div>
+        
+        <h3 id="tomoe" class="games-header hide">Tomoe Sushi</h3>
+        <p id="tomoe-description" class="game-description hide">Tomoe Sushi website makeover project with UX team at General Assemnbly.
+            This website was built using <span class="rainbow-text">React</span><br/>
+            <span>Click </span><span><a class="rainbow-text big-font" href="http://tomoesushi.surge.sh/">Tomoe Sushi</a></span><span> to visit! </span>
+
+        </p>
+        <div id="tomoe-img-box" class="game-img-box hide">
+            <a href="./assets/Screen Shot 2019-11-25 at 12.10.05 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.10.05 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.10.16 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.10.16 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-25 at 12.10.28 PM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-25 at 12.10.28 PM.png" alt=""></a>
+            <a href="./assets/Screen Shot 2019-11-27 at 10.06.55 AM.png" target="_blank"><img class="app-images" src="./assets/Screen Shot 2019-11-27 at 10.06.55 AM.png" alt=""></a>
+          
+        </div>
+    </div>
     <section id="contact-content" class="contact-container hide">
-        <h3>Contact Me</h3>
+        <br>
+        <hr>
+        <br>
+        <h1 style="text-align: center;">Contact</h1>
+        <br>
+        <hr>
+        <br>
+            <div class="media-container">
+                    <a class="media-links" href="https://www.linkedin.com/in/michael-ion-153926121/" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a>
+                    <a class="media-links" href="https://github.com/maion308" target="_blank"><i class="fab fa-github-square fa-5x"></i></a>
+                </div>
+                <br />
+            <p style="text-align: center;"><i class="media-links fas fa-envelope-square fa-3x"></i>
+                <a style="color: white;" href="mailto:michaelion@michael-ion.com">&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#105;&#111;&#110;&#064;&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#045;&#105;&#111;&#110;&#046;
+                &#099;&#111;&#109;</a>
+            </p>
     </section>
 
+    <br>
     <footer class="footer-container">
         <small>Created by Michael Ion, All Rights Reserved &copy;</small>
     </footer>
