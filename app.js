@@ -25,11 +25,12 @@ projects.addEventListener("click", () => {
 })
 
 aboutLink.addEventListener("click", () => {
-    if(mainContent.classList == "hide") {
+    if(mainContent.classList == "hide" || contactContent.classList == "hide") {
         mainContent.setAttribute("class", "main-container");
         mainContent.classList.remove("hide");
         imgContent.setAttribute("class", "image-container");
         imgContent.classList.remove("hide");  
+        projectBox.setAttribute("class", "hide")
     }
 })
 
